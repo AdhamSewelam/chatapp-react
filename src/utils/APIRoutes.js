@@ -1,0 +1,9 @@
+// export const host = 'http://localhost:8800';
+export const host = 'https://chatapp-node.vercel.app';
+export const registerRoute = `${host}/api/auth/register`;
+export const loginRoute = `${host}/api/auth/login`;
+export const allUsersRoute = `${host}/api/auth/allUsers`;
+export const usersRoute = `${host}/api/auth/users`;
+export const logoutRoute = `${host}/api/auth/logout`;
+export const sendMessageRoute = `${host}/api/message/addmsg`;
+export const getAllMessagesRoute = `${host}/api/message/getmsg`;
